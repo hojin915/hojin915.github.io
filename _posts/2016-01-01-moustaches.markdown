@@ -1,28 +1,16 @@
 ---
-title:  Moustaches!
-date:   2016-01-01
+title:  선정 프로젝트 관련
+date:   2020-11-22
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+팀원들 간의 토의를 통해서 팀프로젝트로 PySnooper, TinyKaboom을 선정하였다.
 
 <!--more-->
 
-<img alt="Tom Selleck" src="{{site.baseurl}}/media/tom_selleck.jpg">
+## PySnooper
+PySnooper는 Python debugger로써, 어떤 line에서 어떻게 작동하는지, 또는 작동을 안하는지, 그리고 변수들의 값이 어떻게 되는지를 알려준다. 보통 그런 부분을 확인하기 위해서 print를 적절한 위치에 넣어서 확인하고, 또 그 위치를 찾기위해 고민하지만 Pysnooper는 decorator를 삽입해주기만 하면 된다.
+해당 프로젝트의 issue를 확인하면 버전에 따른 오류, time함수에 관련된 버그가 있기 때문에 여러 버전에서 같은 코드를 사용하면서 버전의 차이에 따른 issue를 새롭게 제시하고 time함수를 사용한 코드들을 사용해서 테스트 함으로써 새로운 issue발견 또는 코드를 개선할 수 있다고 본다. 또한 원하는 범위만을 출력하는 기능이 없는 것으로 보이기 때문에 구조적으로 가능한지 확인하고 가능한 선에서 개선을 해나갈 예정이다.
 
-## Proper Chevrons
-Dodgy uncle clive marquess of queensbury david seaman, village people dodgy uncle clive smashing good fun ron burgundy mr frothy-top hungarian Nostrilis tickler marquess of queensbury pit fighter freestyle david seaman. Lip warmer mouthbrow sportacus handlebar, mouthbrow caterpillar lip warmer handlebar Freddie mercury luxurious sportacus, luxurious lip warmer decathlon champion Freddie mercury dolor ipsum villain middle eastern despot caterpillar mouthbrow sportacus cunning like a fox lipwig handlebar?
-
-<img alt="David Beckham" src="{{site.baseurl}}/media/david_beckham.jpg">
-
-## A Little Handlebar Eh?
-Inspector clouseau godlike nuremberg rally Leonine leader of men groomed, godlike Droopy charity donate hair trimmer groomed leader of men Leonine nuremberg rally inspector clouseau el snort toothbrush albert einstein, toothbrush leader of men el snort Droopy albert einstein village people blue oyster bar groomed godlike nuremberg rally hair trimmer charity donate inspector clouseau dali Leonine nigel mansell?
-
-<img alt="Kenneth Branagh" src="{{site.baseurl}}/media/kenneth_branagh.jpg">
-
-## Sharp!
-Testosterone trophy john aldridge ned flanders socially mobile?
-
-### Did he bleach that?
-Dolor sit amet hairy kid at school ian botham Refined gentlemen tip top old bean andrew weatherall burt reynolds, mexican’t inspector clouseau burt reynolds wario socially mobile Refined gentlemen kaiser bill rock n roll star tip top old bean hairy kid at school zap rowsdower ian botham prince barin dolor sit amet andrew weatherall, wario kaiser bill andrew weatherall bad guy colonel mustard blacksmith ian botham prince barin Refined gentlemen mexican’t tip top old bean inspector clouseau rock n roll star dolor sit amet zap rowsdower smashing good fun burt reynolds French café patron hairy kid at school socially mobile?
-
-_Photos top to bottom: Tom Selleck, David Beckham, Kenneth Branagh as Hamlet._
+## TinyKaboom
+TinyKaboom의 기존 프로젝트는 computer graphics강의의 교육자료이다. 여러 과정을 거치는 180라인의 코드를 통해서 폭발하는 이미지를 생성하는 프로그램이다.
+TinyKaboom에 특별한 issue는 없었지만, 두가지 개선방법을 생각했다. 하나는 교육자료의 목적에 맞도록 이미지를 생성하는 과정을 이해하기 쉽게 주석을 추가하는 것이고, 둘째는 생성되는 이미지 파일이 한정되기 때문에 가능하면 이미지 파일 대신 영상을 생성하거나 다양한 이미지가 생성되도록 개선하는 것이다. 기존 프로젝트의 규모가 작기 때문에 많은 영향을 줄 수 있다는 점이 TinyKaboom프로젝트를 선정하는 원인이 되기도 하였지만 원활한 프로젝트 진행을 위해서 2순위에 두고 진행하기로 하였다.
